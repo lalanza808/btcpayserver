@@ -54,6 +54,8 @@ namespace BTCPayServer.Plugins.Altcoins
                 InitGroestlcoin(services);
             if (selectedChains.Contains("XMR"))
                 InitMonero(services);
+            if (selectedChains.Contains("WOW"))
+                InitWownero(services);
             if (selectedChains.Contains("ZEC"))
                 InitZcash(services);
         }

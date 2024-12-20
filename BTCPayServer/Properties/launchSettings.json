@@ -182,7 +182,10 @@
         "BTCPAY_EXPLORERPOSTGRES": "User ID=postgres;Include Error Detail=true;Host=127.0.0.1;Port=39372;Database=nbxplorer",
         "BTCPAY_XMR_DAEMON_URI": "http://127.0.0.1:18081",
         "BTCPAY_XMR_WALLET_DAEMON_URI": "http://127.0.0.1:18082",
-        "BTCPAY_XMR_WALLET_DAEMON_WALLETDIR": "/path/to/monero_wallet"
+        "BTCPAY_XMR_WALLET_DAEMON_WALLETDIR": "/path/to/monero_wallet",
+        "BTCPAY_WOW_DAEMON_URI": "http://127.0.0.1:34568",
+        "BTCPAY_WOW_WALLET_DAEMON_URI": "http://127.0.0.1:8000",
+        "BTCPAY_WOW_WALLET_DAEMON_WALLETDIR": "/path/to/wownero_wallet"
       },
       "applicationUrl": "https://localhost:14142/"
     },
@@ -224,7 +227,10 @@
         "BTCPAY_EXPLORERPOSTGRES": "User ID=postgres;Include Error Detail=true;Host=127.0.0.1;Port=39372;Database=nbxplorer",
         "BTCPAY_XMR_DAEMON_URI": "http://127.0.0.1:18081",
         "BTCPAY_XMR_WALLET_DAEMON_URI": "http://127.0.0.1:18082",
-        "BTCPAY_XMR_WALLET_DAEMON_WALLETDIR": "/path/to/monero_wallet"
+        "BTCPAY_XMR_WALLET_DAEMON_WALLETDIR": "/path/to/monero_wallet",
+        "BTCPAY_WOW_DAEMON_URI": "http://127.0.0.1:34568",
+        "BTCPAY_WOW_WALLET_DAEMON_URI": "http://127.0.0.1:8000",
+        "BTCPAY_WOW_WALLET_DAEMON_WALLETDIR": "/path/to/wownero_wallet"
       },
       "applicationUrl": "https://localhost:14142/"
     }
